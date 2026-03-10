@@ -1,6 +1,8 @@
 # AI 产品经理求职 Skills 工具箱
 
-一套在真实 AI PM 求职过程中打磨出来的 Agent Skills，覆盖从简历撰写、面试诊断到知识积累的完整链路。
+一套在真实 AI PM 求职过程中打磨出来的 Agent Skills，覆盖从知识学习、产品拆解、简历撰写、面试诊断到知识沉淀的完整链路。
+
+说实话，这几个 Skill 组合在一起，已经足够支撑你从「准备转型」到「拿到 offer 开始上手工作」的整个过程。
 
 ## 为什么做这套 Skills？
 
@@ -8,7 +10,7 @@
 
 比如你让通用 AI 帮你改简历，它会帮你把句子写得更漂亮，但不会告诉你"这段经历应该突出数据闭环而不是功能迭代，因为目标 JD 要的是有 AI 评测体系经验的人"。你让它帮你复盘面试，它会给你一堆"要更有结构"的空话，但不会还原面试官问那个问题到底想考察什么。
 
-这套 Skills 的不同之处：
+**这套 Skills 的不同之处：**
 
 - **内置 AI PM 领域知识**：每个 Skill 都内嵌了 AI 产品经理岗位的能力模型、薪资分层标准（15-40k）、面试官考察维度等专业框架，不是泛泛而谈的"产品经理面试技巧"
 - **流程驱动而非问答驱动**：不是你问一句 Claude 答一句，而是触发后 Claude 会按照完整的专业流程主动推进（比如面试诊断会自动按 9 个维度逐题分析，最后输出带行动计划的诊断报告）
@@ -23,36 +25,57 @@
 | **ai-pm-resume-writer** | 简历不知道怎么写、投了没回音、不确定经历怎么包装 | "帮我针对这个 JD 调简历"、"我的项目经历怎么突出 AI 相关的部分" |
 | **ai-pm-interview-diagnosis** | 面试完感觉没答好但不知道问题在哪、不知道怎么准备下一场 | "帮我分析这个面试录音"、"这个 JD 可能会问什么" |
 
-### 能力建设
+### 能力建设 & 入职加速
 
 | Skill | 解决什么问题 | 典型使用场景 |
 |-------|------------|------------|
+| **ai-product-teardown** | 面试前需要拆解目标公司产品、入职后需要快速理解竞品全貌 | "帮我拆解一下 Cursor"、"分析一下这个 AI 产品的架构" |
 | **ai-agent-prd-writer** | 想积累 AI 产品设计作品、面试中被问"你怎么设计一个 AI 产品" | "帮我写一个智能客服 Agent 的 PRD"、"梳理一下这个需求" |
 | **interactive-learning** | 需要快速补某个知识短板（RAG、Agent 架构、评测体系等） | "我想搞懂 RAG 的原理"、"帮我理解 AI Agent 的设计模式" |
 | **obsidian-knowledge-saver** | 和 Claude 聊完就忘了、知识没有沉淀 | "把刚才的讨论沉淀到知识库"、"帮我整理到 Obsidian" |
 
-## 怎么用？
+## 快速开始
 
-**前提**：你需要有 [Claude Desktop](https://claude.ai/download) 并开启 Cowork 模式。
+### 第一步：安装 Claude Desktop
 
-**安装步骤**：
+前往 [claude.ai/download](https://claude.ai/download) 下载 Claude Desktop 客户端。
 
-1. 下载本仓库中你需要的 Skill 文件夹（每个文件夹里有一个 `SKILL.md`）
-2. 把文件夹放到 Claude Desktop 的 Skills 目录中
-3. 重启 Cowork，Skill 就会自动加载
+### 第二步：开启 Cowork 模式
 
-**使用方式**：
+打开 Claude Desktop → 左下角切换到 **Cowork** 模式。首次使用会引导你选择一个工作文件夹。
 
-不需要记任何命令。直接用自然语言跟 Claude 说你想做的事，对应的 Skill 会自动触发。比如：
+### 第三步：安装 Skills
 
-- "帮我看看这个面试记录" → 自动触发面试诊断
-- "我想投这个岗位，简历怎么改" → 自动触发简历优化
-- "帮我写个 PRD" → 自动触发 PRD 撰写
-- "我想搞懂 RAG" → 自动触发学习引擎
+1. 点击本仓库页面的绿色 **Code** 按钮 → **Download ZIP**，解压到任意位置
+2. 在 Cowork 模式下，点击左侧边栏的 **Skills** → **Add Skill**
+3. 选择你要安装的 Skill 文件夹（比如 `ai-pm-resume-writer`），每个文件夹是一个独立的 Skill
+4. 安装完成后，Skill 会自动加载，无需重启
 
-**使用建议**：
+### 第四步：直接用自然语言触发
 
-推荐按照求职阶段逐步使用：先用 **interactive-learning** 补齐知识短板 → 用 **ai-agent-prd-writer** 积累作品 → 用 **ai-pm-resume-writer** 写好简历 → 面试后用 **ai-pm-interview-diagnosis** 复盘改进 → 全程用 **obsidian-knowledge-saver** 沉淀所学。
+不需要记任何命令。直接跟 Claude 说你想做的事，对应的 Skill 会自动触发：
+
+- "帮我看看这个面试记录" → 自动触发**面试诊断**
+- "我想投这个岗位，简历怎么改" → 自动触发**简历优化**
+- "帮我拆解一下 Kimi" → 自动触发**产品拆解**
+- "帮我写个 PRD" → 自动触发 **PRD 撰写**
+- "我想搞懂 RAG" → 自动触发**学习引擎**
+- "沉淀到知识库" → 自动触发 **Obsidian 存档**
+
+## 推荐使用路径
+
+这套 Skills 的设计是有先后节奏的。推荐按这个顺序来：
+
+```
+1. 补知识 → interactive-learning（搞懂 RAG、Agent、评测体系等核心概念）
+2. 看产品 → ai-product-teardown（拆解目标公司和竞品的 AI 产品）
+3. 攒作品 → ai-agent-prd-writer（写出能拿得出手的 AI PRD）
+4. 写简历 → ai-pm-resume-writer（针对目标 JD 打磨简历）
+5. 打面试 → ai-pm-interview-diagnosis（面试后复盘，面试前备战）
+6. 沉淀 → obsidian-knowledge-saver（全程把学到的东西存下来）
+```
+
+入职之后，**ai-product-teardown** 和 **interactive-learning** 会继续帮你快速理解新产品和新技术。
 
 ## 关于
 
