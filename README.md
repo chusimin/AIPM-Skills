@@ -31,7 +31,8 @@
 |-------|------------|------------|
 | **ai-product-teardown** | 面试前需要拆解目标公司产品、入职后需要快速理解竞品全貌 | "帮我拆解一下 Cursor"、"分析一下这个 AI 产品的架构" |
 | **ai-agent-prd-writer** | 想积累 AI 产品设计作品、面试中被问"你怎么设计一个 AI 产品" | "帮我写一个智能客服 Agent 的 PRD"、"梳理一下这个需求" |
-| **interactive-learning** | 需要快速补某个知识短板（RAG、Agent 架构、评测体系等） | "我想搞懂 RAG 的原理"、"帮我理解 AI Agent 的设计模式" |
+| **48h-accelerated-learning** | 面试前需要短时间搞懂一个陌生领域、入职后快速建立新业务的认知全景图 | "帮我48小时搞懂多模态"、"快速入门自动驾驶领域" |
+| **interactive-learning** | 需要系统深入学某个知识点（RAG、Agent 架构、评测体系等） | "我想搞懂 RAG 的原理"、"帮我理解 AI Agent 的设计模式" |
 | **obsidian-knowledge-saver** | 和 Claude 聊完就忘了、知识没有沉淀 | "把刚才的讨论沉淀到知识库"、"帮我整理到 Obsidian" |
 
 ## 快速开始
@@ -59,6 +60,7 @@
 - "我想投这个岗位，简历怎么改" → 自动触发**简历优化**
 - "帮我拆解一下 Kimi" → 自动触发**产品拆解**
 - "帮我写个 PRD" → 自动触发 **PRD 撰写**
+- "帮我48小时搞懂多模态" → 自动触发**加速学习**
 - "我想搞懂 RAG" → 自动触发**学习引擎**
 - "沉淀到知识库" → 自动触发 **Obsidian 存档**
 
@@ -67,15 +69,16 @@
 这套 Skills 的设计是有先后节奏的。推荐按这个顺序来：
 
 ```
-1. 补知识 → interactive-learning（搞懂 RAG、Agent、评测体系等核心概念）
-2. 看产品 → ai-product-teardown（拆解目标公司和竞品的 AI 产品）
-3. 攒作品 → ai-agent-prd-writer（写出能拿得出手的 AI PRD）
-4. 写简历 → ai-pm-resume-writer（针对目标 JD 打磨简历）
-5. 打面试 → ai-pm-interview-diagnosis（面试后复盘，面试前备战）
-6. 沉淀 → obsidian-knowledge-saver（全程把学到的东西存下来）
+1. 速成领域 → 48h-accelerated-learning（48小时建立目标领域的认知全景图）
+2. 补知识 → interactive-learning（系统深入搞懂 RAG、Agent、评测体系等核心概念）
+3. 看产品 → ai-product-teardown（拆解目标公司和竞品的 AI 产品）
+4. 攒作品 → ai-agent-prd-writer（写出能拿得出手的 AI PRD）
+5. 写简历 → ai-pm-resume-writer（针对目标 JD 打磨简历）
+6. 打面试 → ai-pm-interview-diagnosis（面试后复盘，面试前备战）
+7. 沉淀 → obsidian-knowledge-saver（全程把学到的东西存下来）
 ```
 
-入职之后，**ai-product-teardown** 和 **interactive-learning** 会继续帮你快速理解新产品和新技术。
+入职之后，**48h-accelerated-learning** 帮你快速搞懂新业务领域，**ai-product-teardown** 和 **interactive-learning** 继续帮你理解新产品和新技术。
 
 ## 关于
 
