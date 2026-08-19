@@ -1,3 +1,5 @@
+
+
 # AIPM+ Skills 工具箱
 
 一套为 AI 产品经理打造的 Claude Skills，覆盖从灵感发现、商业判断、需求分析、项目规范到求职上岗的完整链路。
@@ -150,6 +152,7 @@ v2.0 重构：存的是知识点不是对话记录，同一知识点只有一条
 
 - **BRD / MRD 爬虫功能**：需要 `pip install requests beautifulsoup4`（首次使用时 Skill 会提醒）
 - **obsidian-knowledge-saver**：依赖 Desktop Commander MCP 工具进行本地文件读写
+- **ai-product-teardown**：依赖 Desktop Commander 创建目录和写入本地拆解文件
 - 其他 Skill 无额外依赖
 
 ## 关于
